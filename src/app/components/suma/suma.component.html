@@ -1,0 +1,28 @@
+<p>Suma</p>
+<form>
+    <div class="form-group">
+        <label>Valor 1 </label>
+        <input type="number"
+        [(ngModel)]="num1"
+        id="value1"
+        class="form-control"
+        placeholder="Escribe un Numero"
+        name="num1"
+        />
+    </div>
+
+    <div class="form-group">
+        <label>Valor 2</label>
+        <input type="number"
+        [(ngModel)]="num2"
+        id="value2"
+        class="form-control"
+        placeholder="Escribe un Numero"
+        name="num2"
+        />
+    </div>
+<button type="submit" class="btn btn-promary" (click)="Sumar()">Sumar</button>
+<td><button type="reset">Limpiar</button></td>
+</form>
+<td><label>Resultado </label></td>
+<p>Resultado= {{result}}</p>
