@@ -9,6 +9,7 @@ import { DiviComponent } from './components/divi/divi.component';
 import { SumaComponent } from './components/suma/suma.component';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
