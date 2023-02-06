@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { __importDefault } from 'tslib';
 
 
@@ -8,14 +8,10 @@ import { __importDefault } from 'tslib';
   styleUrls: ['./suma.component.css']
 })
 
-  
-export class SumaComponent implements OnInit{
+export class SumaComponent{
   num1:number;
   num2:number;
   result:number;
-
-  ngOnInit(): void {
-  }
 
   Sumar(): void {
     this.result = this.num1 + this.num2;

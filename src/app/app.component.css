@@ -4,4 +4,9 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
+}
+
+.uno{color: crimson;}
+.dos{color: blue;}
+.tres{color: seagreen;}
+.cuatro{color: coral;}
